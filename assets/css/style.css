@@ -1,0 +1,116 @@
+#Base {
+    background-color: #000000;
+    padding: auto;  
+}
+
+body {
+    padding: 60px;
+    font-family: Raleway;     
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-weight: medium;
+}
+
+#Hero-Section {
+    width: 100%;
+    background-color: #000000;
+    padding: 0;
+}
+
+p {
+    text-align: left;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+section {
+    top: 0px;
+    left: 0px;
+    background: #1e1a13;
+    padding: 0%;
+}
+
+#Info-Iguana {
+    background: #000000;
+    padding: 40px;
+    color: #ffffff;
+}
+
+#Info-Iguana .wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+#Info-Iguana .wrapper img {
+    width: 50%;
+    margin-left: 4%;
+}
+
+#Info-Iguana .wrapper .texto {
+    width: 40%;
+}
+
+#Info-Iguana .wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#Carac {
+    background: #1e1a13;
+    padding: 30px;
+}
+ 
+#Carac * {
+    color: #ffffff;
+    font-weight: Raleway medium;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+#Carac .wrapper {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#Carac .texto, p {
+    vertical-align: middle;   
+}
+
+#Carac .wrapper .texto, p {
+    vertical-align: middle;
+}
+
+#Galeria {
+    background: #000000;
+    padding: 100px;
+    color: #ffffff;
+}
+
+#Galeria  {
+    padding: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: content-box;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+}
+
+#Galeria img {
+    width: 200px;
+    /*margin-left: 10%;*/
+}
+
+footer {
+    text-align: center;
+    background: #1e1a13;
+    color: #ffffff;
+    padding: 20px;
+    font-weight: Raleway lighter;
+}
